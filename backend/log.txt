@@ -1,0 +1,18 @@
+{
+  "UID": "sdcs",
+  "trials": [
+    {
+      "UID": "sdcs",
+      "timestamp": 1639829902,
+      "trialNum": 1,
+      "stimulusId": 1,
+      "angle": 0,
+      "target_file": "../static/Ants_15.ogg",
+      "mc_choice": "people today are interested in Shakespeare’s work because of the characters.",
+      "ef_rate": "7",
+      "ef_react": 1275,
+      "mc_correct": "onions and bay leaves go well with clams.",
+      "mc_react": 908
+    }
+  ]
+}
