@@ -222,8 +222,6 @@ class Trial {
     //   console.log(e)
     //   this.targetAudio.play()
     // })
-
-    // Error: App.vue?3dfd:213 Uncaught (in promise) DOMException: The element has no supported sources.
     
     //after starting, set a timeout for "stopAll()"
     setTimeout(() => { 
@@ -357,18 +355,10 @@ export default {
       
       },
 
-      // App.vue?3dfd:206 Uncaught (in promise) DOMException: The element has no supported sources.
-
       saveTextfile() {
          axios.post('http://localhost:5001/save', this.log)
             .then(res => console.log(res.data))
             .catch(e => console.log(e));
-      },
-      
-      readJson(){
-        //  fetch('./trials.json')
-        //   .then(response => response.json())
-        //   .then(data => this.buildTrials(data));
       },
 
       buildTrials(){
